@@ -6,18 +6,18 @@ import Class.QuanLy;
 public class Test {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc123 = new Scanner(System.in);
 
-        QuanLy ql = new QuanLy();
+        QuanLy ql123 = new QuanLy();
 
-        ql.nhapDanhSach(sc);
+        ql123.nhapDanhSach(sc123);
 
         System.out.println("\n----- Danh sach tat ca can bo -----");
-        ql.hienThiDanhSach();
+        ql123.hienThiDanhSach();
 
         System.out.println("\n----- Danh sach nhung can bo co luong >= 8 trieu -----");
-        ql.timKiem(8000000);
+        ql123.timKiem(8000000);
 
-        sc.close();
+        sc123.close();
     }
 }
